@@ -943,6 +943,10 @@ img {
   /* #endregion Hero section */
 
   /* #region Features section */
+  .features-section .main-title {
+    text-align: start;
+  }
+
   .features-list {
     display: flex;
     flex-wrap: wrap;
@@ -1131,9 +1135,11 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
   }
 
   .features-text {
+    font-weight: 400;
     letter-spacing: 0.015em;
   }
 
